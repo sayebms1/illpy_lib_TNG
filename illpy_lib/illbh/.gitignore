@@ -1,0 +1,4 @@
+MatchDetails.c
+BuildTree.c
+*.so
+build/
