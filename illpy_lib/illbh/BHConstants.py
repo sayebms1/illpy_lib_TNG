@@ -48,6 +48,9 @@ _ILLUSTRIS_MERGERS_DIRS = {3: "/n/ghernquist/Illustris/Runs/L75n455FP/output/bla
                                "/n/ghernquist/Illustris/Runs/L75n1820FP/txt-files/txtfiles_new/txt-files-partial/Oct10/blackhole_mergers/"]
                            }
 
+_TNG_MERGERS_DIRS       = {1: "/n/hernquistfs3/IllustrisTNG/Runs/L75n1820TNG/output/blackhole_mergers"
+                           }
+
 _ILLUSTRIS_DETAILS_DIRS = {3: "/n/ghernquist/Illustris/Runs/L75n455FP/output/blackhole_details/",
                            2: "/n/ghernquist/Illustris/Runs/L75n910FP/combined_output/blackhole_details/",
                            1: ["/n/ghernquist/Illustris/Runs/L75n1820FP/txt-files/txtfiles_new/txt-files-curie/blackhole_details/",
@@ -58,6 +61,9 @@ _ILLUSTRIS_DETAILS_DIRS = {3: "/n/ghernquist/Illustris/Runs/L75n455FP/output/bla
                                "/n/ghernquist/Illustris/Runs/L75n1820FP/txt-files/txtfiles_new/txt-files-partial/Sep25/blackhole_details/"]
                            }
 
+
+_TNG_DETAILS_DIRS       = {1: "/n/hernquistfs3/IllustrisTNG/Runs/L75n1820TNG/output/blackhole_details"
+                           }
 
 # Post-Processing Parameters
 # ==========================
