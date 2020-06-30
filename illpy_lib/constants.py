@@ -48,14 +48,16 @@ _ILLUSTRIS_RUN_NAMES   = {1: "L75n1820FP",
                           2: "L75n910FP",
                           3: "L75n455FP"}
 
-_PROCESSED_DIR = "/n/home00/lkelley/hernquistfs1/illustris/data/%s/output/postprocessing/"
-_ILLUSTRIS_OUTPUT_DIR_BASE = "/n/ghernquist/Illustris/Runs/%s/output/"
+#_PROCESSED_DIR = "/n/home00/lkelley/hernquistfs1/illustris/data/%s/output/postprocessing/"
+_PROCESSED_DIR= "/n/home09/sayebms/illpy_output"
+#_ILLUSTRIS_OUTPUT_DIR_BASE = "/n/ghernquist/Illustris/Runs/%s/output/"
+_ILLUSTRIS_OUTPUT_DIR_BASE = "/n/hernquistfs3/IllustrisTNG/Runs/%s/output/"
 
 _DM_MASS = {1: 4.408965e-04,
             2: 3.527172e-03,
             3: 2.821738e-02}
 
-
+cdh
 def GET_ILLUSTRIS_DM_MASS(run):
     return _DM_MASS[run]
 
