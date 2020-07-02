@@ -14,17 +14,17 @@ class Settings(pycore.Settings):
     LOG_FILENAME = "log_illpy-lib_bh.log"
     RUN_NUM = 1
 
-    INPUT = "/n/ghernquist/Illustris/Runs/L75n1820FP/"
-    # INPUT = "/n/hernquistfs3/IllustrisTNG/Runs/L75n1820TNG/output"
+    #INPUT = "/n/ghernquist/Illustris/Runs/L75n1820FP/"
+     INPUT = "/n/hernquistfs3/IllustrisTNG/Runs/L75n1820TNG/output"
     # OUTPUT = "/n/regal/hernquist_lab/lkelley/illustris-processed/"
-    OUTPUT = "/n/scratchlfs/hernquist_lab/lzkelley/illustris-processed/"
+    # OUTPUT = "/n/scratchlfs/hernquist_lab/lzkelley/illustris-processed/"
+    OUTPUT = "/n/home09/sayebms/illpy_output"
 
     # NOTE: this is automatically reset
     TNG = None
 
     RECREATE = False
     BREAK_ON_FAIL = False
-
     MAX_DETAILS_PER_SNAP = 10
 
     def __init__(self, parse_cl=None, **kwargs):
